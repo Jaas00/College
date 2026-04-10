@@ -1,0 +1,3 @@
+Z:/CLion C PROGRAMMING APC/C_Assignments_Semester[1]/C_Programms/Secondary Assignments SEM -1/cmake-build-debug/CMakeFiles/Secondary_Assignments_SEM__1.dir
+Z:/CLion C PROGRAMMING APC/C_Assignments_Semester[1]/C_Programms/Secondary Assignments SEM -1/cmake-build-debug/CMakeFiles/edit_cache.dir
+Z:/CLion C PROGRAMMING APC/C_Assignments_Semester[1]/C_Programms/Secondary Assignments SEM -1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

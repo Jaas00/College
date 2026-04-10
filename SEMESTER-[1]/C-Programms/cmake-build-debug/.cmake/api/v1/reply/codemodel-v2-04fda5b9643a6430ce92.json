@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Semester_1_C",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practice-Debug-a3037713129629ae7326.json",
+					"name" : "Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Primary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Primary-Debug-45db269ac47deff4641d.json",
+					"name" : "Primary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Secondary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Secondary-Debug-bc3aca44cc8e27c4d942.json",
+					"name" : "Secondary",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug",
+		"source" : "Z:/APC COLLEGE/SEMESTER-[1]/C-Programms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

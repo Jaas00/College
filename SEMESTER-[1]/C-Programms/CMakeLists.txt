@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 4.0)
+project(Semester_1_C)
+set(CMAKE_C_STANDARD 11)
+add_executable(Primary "Primary Assignments SEM -1/Assignment[1].c")
+add_executable(Secondary "Secondary Assignments SEM -1/Assignment[1].c"
+        "Secondary Assignments SEM -1/Assignment[15].c")
+add_executable(Practice "Practice/P1.c")

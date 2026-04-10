@@ -1,0 +1,21 @@
+# ninja log v6
+213	378	7911336365711835	Primary_Assignments_SEM__1.exe	5347cc0da1e6a15
+38	687	7911337145694601	build.ninja	736e80f7c599d451
+38	687	7911337145627851	Z:/CLion C PROGRAMMING APC/C_Assignments_Semester[1]/C_Programms/Primary Assignments SEM -1/cmake-build-debug/cmake_install.cmake	736e80f7c599d451
+33	178	7911325422934273	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[2].c.obj	3e96a38fed22ca66
+39	141	7911327700421344	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[4].c.obj	b833aadb0e7a98db
+56	202	7911324450670842	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[1].c.obj	9ab2f5b4bfdebdbf
+43	154	7911326578009880	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[3].c.obj	de2f97068dbacbe
+39	158	7911328533440434	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[5].c.obj	7a20c82526707337
+38	138	7911329360382806	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[6].c.obj	484a530bab13f4ec
+32	147	7911330105225460	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[7].c.obj	6a3eb2a55b46f43c
+46	147	7911331155273156	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[8].c.obj	de7f6eac29f18d4e
+37	158	7911332752807455	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[9].c.obj	23826c69c373ec
+42	156	7911334237418732	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[10].c.obj	79d59a6485e73236
+41	150	7911334658782142	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[11].c.obj	bb84b8f11d2ea76a
+43	207	7911335558596459	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[12].c.obj	2fa3e555ac31f37f
+64	213	7911336364222445	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[12.1].c.obj	cbea935edf697da4
+31	628	7911337145694601	build.ninja	736e80f7c599d451
+31	628	7911337145694601	Z:/CLion C PROGRAMMING APC/C_Assignments_Semester[1]/C_Programms/Primary Assignments SEM -1/cmake-build-debug/cmake_install.cmake	736e80f7c599d451
+42	193	7911337148404015	CMakeFiles/Primary_Assignments_SEM__1.dir/Assignment[13].c.obj	8d6d6d3b00967031
+193	389	7911337149914520	Primary_Assignments_SEM__1.exe	8fd3b103727af3fc
