@@ -1,5 +1,0 @@
-Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug/CMakeFiles/Primary.dir
-Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug/CMakeFiles/Secondary.dir
-Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug/CMakeFiles/Practice.dir
-Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug/CMakeFiles/edit_cache.dir
-Z:/APC COLLEGE/SEMESTER-[1]/C-Programms/cmake-build-debug/CMakeFiles/rebuild_cache.dir

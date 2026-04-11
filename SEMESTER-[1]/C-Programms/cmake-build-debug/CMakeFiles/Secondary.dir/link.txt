@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2025.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Secondary.dir/objects.a
-Z:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Secondary.dir/objects.a @CMakeFiles\Secondary.dir\objects1.rsp
-Z:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\Secondary.dir/objects.a -Wl,--no-whole-archive -o Secondary.exe -Wl,--out-implib,libSecondary.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Secondary.dir\linkLibs.rsp

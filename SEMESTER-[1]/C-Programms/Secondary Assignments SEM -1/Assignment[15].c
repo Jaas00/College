@@ -1,20 +1,25 @@
 /*  Write a program to merge two sorted integer arrays to form a single sorted array. */
 #include<stdio.h>
 #include<stdlib.h>
-int Merge(int *a1, int n1,int *a2,int n2) {
+void Merge(int *a1, int n1,int *a2,int n2) {
     int i,j,k;
     int *arr;
     arr = (int*)calloc(n1+n2,sizeof(int));
     i=j=k=0;
-    while (i<n1) {
+    while (i < n1 && j < n2) {
+        if (a1[i]<a2[j])
+            arr[k++] = a1[i++];
+        else
+            arr[k++] = a2[j++];
+    }
+    while (i < n1)
         arr[k++] = a1[i++];
-    }
-    while (j<n2) {
+    while (j < n2)
         arr[k++] = a2[j++];
-    }
-    printf("The merged array is : ");
-    for (k=0;k<n1+n2;k++)
-        printf("%d",arr[k]);
+    printf("The merged array elements are : ");
+    for (i=0;i<n1+n2;i++)
+        printf("%d ",arr[i]);
+
 }
 void getdata(int *a1, int *a2, int n1, int n2) {
     int i,j;

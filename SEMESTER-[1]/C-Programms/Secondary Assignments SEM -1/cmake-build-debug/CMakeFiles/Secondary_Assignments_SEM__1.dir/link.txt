@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2025.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Secondary_Assignments_SEM__1.dir/objects.a
-Z:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Secondary_Assignments_SEM__1.dir/objects.a @CMakeFiles\Secondary_Assignments_SEM__1.dir\objects1.rsp
-Z:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\Secondary_Assignments_SEM__1.dir/objects.a -Wl,--no-whole-archive -o Secondary_Assignments_SEM__1.exe -Wl,--out-implib,libSecondary_Assignments_SEM__1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Secondary_Assignments_SEM__1.dir\linkLibs.rsp

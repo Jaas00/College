@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2025.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\first_program.dir/objects.a
-Z:\msys64\mingw64\bin\ar.exe qc CMakeFiles\first_program.dir/objects.a @CMakeFiles\first_program.dir\objects1.rsp
-Z:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\first_program.dir/objects.a -Wl,--no-whole-archive -o first_program.exe -Wl,--out-implib,libfirst_program.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\first_program.dir\linkLibs.rsp
