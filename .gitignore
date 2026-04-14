@@ -1,4 +1,18 @@
-.idea/  
-cmake-build-debug/  
-*.exe  
-*.obj 
+# 1. Ignore absolutely everything by default
+*
+
+# 2. But do NOT ignore folders (so we can see inside them)
+!*/
+
+# 3. Specifically "Un-ignore" the files we want to keep
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.R
+!CMakeLists.txt
+!.gitignore
+
+# 4. Keep ignoring the junk folders from CLion
+.idea/
+cmake-build-debug/
