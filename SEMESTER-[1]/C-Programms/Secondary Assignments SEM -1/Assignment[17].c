@@ -4,27 +4,29 @@
 
 #include<stdio.h>
 void fibo(int n) {
-    int i, t1 = 0, t2 = 1, t;
-    if (n >= 1) {
-        printf("%d ", t1);
-    }
-    if (n >= 2) {
-        printf("%d ", t2);
-    }
-    for (i = 3; i <= n; i++) {
-        t = t1 + t2;
-        printf("%d ", t);
-        t1 = t2;
-        t2 = t;
+    int a = 0;
+    int b = 1;
+    while (n > 0) {
+        printf("%d ", a);
+        int next = a + b;
+        a = b;
+        b = next;
+        n--;
     }
 }
+
+void fiborecur(int n,int a, int b){
+    if(n==0) return;
+    printf("%d ",a);
+    return fiborecur(n-1,b,a+b);
+}
 int main(){
-    int n; //fib;
+    int n;
     printf("enter the number : ");
     scanf("%d",&n);
-    //fib = fibo(n);
-    //printf("The Fibonacci series upto %d term is %d",n,fib);
-    printf("The Fibonacci series upto %d term is : ",n);
+    printf("The Fibonacci series upto %d term using iteration is : ",n);
     fibo(n);
+    printf("\nThe Fibonacci series upto %d term using recursion is : ",n);
+    fiborecur(n,0,1);
     return 0;
 }
