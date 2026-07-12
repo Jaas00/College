@@ -7,7 +7,7 @@ class Search{
         int *arr,n,key;
     public:
         Search(){
-            arr = NULL;
+            arr=NULL;
             n=0;
             
         }
@@ -23,7 +23,7 @@ class Search{
             cout<<"Enter the key value : ";
             cin>>key;
             for(int i=0;i<n;i++){
-                if(arr[i]==key)
+                if(key==arr[i])
                     return i+1;
             }
             return -1;
