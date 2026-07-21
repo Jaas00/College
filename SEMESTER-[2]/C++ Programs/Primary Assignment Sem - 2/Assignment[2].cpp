@@ -1,45 +1,86 @@
 #include<iostream>
 using namespace std;
-class Sort{
+class Matrix{
     private:
-        int *arr;
-        int n;
+        int n,*arr;
     public:
-        Sort(){
-            arr=NULL;
-            n=0;
+        Matrix(int size){
+            n=size;
+            arr = new int[n*(n+1)/2];
         }
-        void GetData(){
-            cout<<"Enter the size : ";
-            cin>>n;
-            arr=new int[n];
-            cout<<"Enter "<<n<<" elements : "<<endl;
-            for(int i=0;i<n;i++)
-                cin>>arr[i];
+        void setLower(int i,int j,int x){
+            if(i>=j) arr[i*(i+1)/2+j]=x;
         }
-        void Display(){
-            for(int i=0;i<n;i++)
-                cout<<arr[i]<<" ";
+        void setUpper(int i,int j,int x){
+            if(i<=j) arr[n*i-(i*(i-1)/2)+(j-i)]=x;
         }
-        void BubbleSort(){
-            for(int i=0;i<n-1;i++){
-                for(int j=0;j<n-1-i;j++){
-                    if(arr[j]>arr[j+1]){
-                        arr[j]^=arr[j+1];
-                        arr[j+1]^=arr[j];
-                        arr[j]^=arr[j+1];
-                    }
+        void setSymmetric(int i,int j,int x){
+            (i>=j)?arr[i*(i+1)/2+j]=x:arr[j*(j+1)/2+i]=x;
+        }
+        int getLower(int i,int j){
+            return (i>=j)?arr[i*(i+1)/2+j]:0;
+        }
+        int getUpper(int i,int j){
+            return (i<=j)?arr[n*i-i*(i-1)/2+(j-i)]:0;
+        }
+        int getSymmetric(int i,int j){
+            return (i>=j)?arr[i*(i+1)/2+j]:arr[j*(j+1)/2+i];
+        }
+        void display(int type){
+            for(int i=0;i<n;i++){
+                for(int j=0;j<n;j++){
+                    if(type==1) cout<<getLower(i,j)<<" ";
+                    else if(type==2) cout<<getUpper(i,j)<<" ";
+                    else if(type==3) cout<<getSymmetric(i,j)<<" ";
                 }
+                cout<<endl;
             }
         }
-        ~Sort(){
-            delete[] arr;
-        }
+        ~Matrix(){delete[] arr;}
 };
 int main(){
-    Sort s;
-    s.GetData();
-    s.BubbleSort();
-    s.Display();
+    int n,choice,x;
+    cout<<"Enter the order of the matrix : ";
+    cin>>n;
+    Matrix M(n);
+    cout<<"\n1. Lower Triangular Matrix.";
+    cout<<"\n2. Upper Triangular Matrix.";
+    cout<<"\n3. Symmetric Matrix.";
+    cout<<"\nEnter your choice : ";
+    cin>>choice;
+    switch(choice){
+        case 1:
+            cout<<"Enter the elements : ";
+            for(int i=0;i<n;i++){
+                for(int j=0;j<=i;j++){
+                    cin>>x;
+                    M.setLower(i,j,x);
+                }
+            }
+            M.display(1);
+            break;
+        case 2:
+            cout<<"Enter the elements : ";
+            for(int i=0;i<n;i++){
+                for(int j=i;j<n;j++){
+                    cin>>x;
+                    M.setUpper(i,j,x);
+                }
+            }
+            M.display(2);
+            break;
+        case 3:
+            cout<<"Enter the elements : ";
+            for(int i=0;i<n;i++){
+                for (int j=0;j<=i;j++){
+                    cin>>x;
+                    M.setSymmetric(i,j,x);
+                }
+            }
+            M.display(3);
+            break;
+        default:
+            cout<<"Invalid Choice.";
+    }
     return 0;
 }
